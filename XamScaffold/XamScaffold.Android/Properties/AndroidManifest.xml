@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.xamscaffold" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="29" />
+	<application android:label="XamScaffold.Android"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+  <application android:largeHeap="true">
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
+  </application>
+</manifest>
