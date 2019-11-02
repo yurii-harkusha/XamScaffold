@@ -8,7 +8,39 @@
 
     <Application.Resources>
         <ResourceDictionary>
-            <!--Global Styles-->
+            
+            <Style TargetType="Label" x:Key="MontserratBlackFontFamilyStyle">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <OnPlatform.iOS>Montserrat-Black</OnPlatform.iOS>
+                            <OnPlatform.Android>Montserrat-Black.ttf#Montserrat Black</OnPlatform.Android>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style TargetType="Label" x:Key="MontserratMediumFontFamilyStyle">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <OnPlatform.iOS>Montserrat-Medium</OnPlatform.iOS>
+                            <OnPlatform.Android>Montserrat-Medium.ttf#Montserrat Medium</OnPlatform.Android>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style TargetType="Label" x:Key="MontserratRegularFontFamilyStyle">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <OnPlatform.iOS>Montserrat-Regular</OnPlatform.iOS>
+                            <OnPlatform.Android>Montserrat-Regular.ttf#Montserrat Regular</OnPlatform.Android>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            
+ 
             <Color x:Key="NavigationPrimary">#2196F3</Color>
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />

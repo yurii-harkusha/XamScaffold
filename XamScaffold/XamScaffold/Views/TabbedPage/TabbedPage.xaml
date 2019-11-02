@@ -6,11 +6,14 @@
              mc:Ignorable="d"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
-             android:TabbedPage.BarItemColor="Black"
-             android:TabbedPage.BarSelectedItemColor="White"
+             android:TabbedPage.BarItemColor="#5F6267"
+             android:TabbedPage.BarSelectedItemColor="#1A73E8"
+             BarBackgroundColor="#FFFFFF"
+             BarTextColor="#5F6267"
+             SelectedTabColor="#1A73E8"
+             UnselectedTabColor="#5F6267"
              x:Class="XamScaffold.Views.TabbedPage.TabbedPage"
              xmlns:tabs="clr-namespace:XamScaffold.Views.TabbedPage.Tabs">
-  <!--Pages can be added as references or inline-->
     <tabs:Tab1Page />
     <tabs:Tab2Page />
     <tabs:Tab3Page />

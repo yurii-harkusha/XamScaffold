@@ -17,7 +17,7 @@ namespace XamScaffold.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Menu";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

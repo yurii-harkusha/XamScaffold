@@ -4,7 +4,7 @@
 	<application android:label="XamScaffold.Android"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-  <application android:largeHeap="true">
-    <uses-library android:name="org.apache.http.legacy" android:required="false" />
-  </application>
+	<application android:largeHeap="true">
+		<uses-library android:name="org.apache.http.legacy" android:required="false" />
+	</application>
 </manifest>

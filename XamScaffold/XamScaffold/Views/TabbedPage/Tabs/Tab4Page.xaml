@@ -4,13 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             IconImageSource="tab_feed.png"
-             x:Class="XamScaffold.Views.TabbedPage.Tabs.Tab4Page">
+             x:Class="XamScaffold.Views.TabbedPage.Tabs.Tab4Page"
+             Icon="triangles.png"
+             Title="Microsoft">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                Style="{StaticResource MontserratBlackFontFamilyStyle}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

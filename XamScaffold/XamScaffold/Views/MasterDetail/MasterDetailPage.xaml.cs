@@ -23,13 +23,8 @@ namespace XamScaffold.Views.MasterDetail
             var item = e.SelectedItem as MasterDetailPageMasterMenuItem;
             if (item == null)
                 return;
-
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
+            var itemTargetType = item.TargetType;
             IsPresented = false;
-
             MasterPage.ListView.SelectedItem = null;
         }
     }
