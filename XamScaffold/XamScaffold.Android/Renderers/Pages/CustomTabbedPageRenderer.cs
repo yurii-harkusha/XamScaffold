@@ -2,12 +2,9 @@
 using Android.Content;
 using Android.Content.Res;
 using Android.Graphics;
-using Android.Support.Design.BottomNavigation;
-using Android.Support.Design.Internal;
-using Android.Support.Design.Widget;
-using Android.Support.V4.Content;
 using Android.Views;
 using Android.Widget;
+using Google.Android.Material.BottomNavigation;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms.Platform.Android.AppCompat;
@@ -29,8 +26,8 @@ namespace XamScaffold.Droid.Renderers.Pages
 
         public void InitializeBottomTabBarItemsStateList()
         {
-            var selectedColor = new Android.Graphics.Color(ContextCompat.GetColor(_context, Resource.Color.tabsSelectedColor));
-            var unselectedColor = new Android.Graphics.Color(ContextCompat.GetColor(_context, Resource.Color.tabsUnselectedColor));
+            var selectedColor = new Android.Graphics.Color(_context.GetColor(Resource.Color.tabsSelectedColor));
+            var unselectedColor = new Android.Graphics.Color(_context.GetColor(Resource.Color.tabsUnselectedColor));
             bottomTabBarItemsStateList = new ColorStateList(
             new int[][]
                 {

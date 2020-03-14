@@ -5,9 +5,6 @@ using System.Collections.Generic;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
-using Xamarin.Forms.Xaml;
-using XamScaffold.Services;
-using XamScaffold.Views;
 using DeviceInfo = Xamarin.Essentials.DeviceInfo;
 
 namespace XamScaffold
