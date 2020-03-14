@@ -208,4 +208,9 @@
   <ItemGroup>
     <Folder Include="Assets.xcassets\triangles.imageset\" />
   </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties XamarinHotReloadWrongLinkerErrorInfoBarXamScaffoldiOSHideInfoBar="True" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
